@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0C3477102C0B1EF700EB7F83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34770F2C0B1EF700EB7F83 /* AppDelegate.swift */; };
-		0C3477142C0B1EF700EB7F83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3477132C0B1EF700EB7F83 /* ViewController.swift */; };
+		0C3477142C0B1EF700EB7F83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3477132C0B1EF700EB7F83 /* LoginViewController.swift */; };
 		0C3477192C0B1EF800EB7F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C3477182C0B1EF800EB7F83 /* Assets.xcassets */; };
 		0C34771C2C0B1EF800EB7F83 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0C34771B2C0B1EF800EB7F83 /* Base */; };
 		0C3477272C0B1EF800EB7F83 /* MiniBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3477262C0B1EF800EB7F83 /* MiniBankTests.swift */; };
 		0C3477312C0B1EF800EB7F83 /* MiniBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3477302C0B1EF800EB7F83 /* MiniBankUITests.swift */; };
 		0C3477332C0B1EF800EB7F83 /* MiniBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3477322C0B1EF800EB7F83 /* MiniBankUITestsLaunchTests.swift */; };
+		0C3477422C0B43B400EB7F83 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3477412C0B43B400EB7F83 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		0C34770C2C0B1EF700EB7F83 /* MiniBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C34770F2C0B1EF700EB7F83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C3477132C0B1EF700EB7F83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C3477132C0B1EF700EB7F83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0C3477182C0B1EF800EB7F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C34771B2C0B1EF800EB7F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C34771D2C0B1EF800EB7F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		0C34772C2C0B1EF800EB7F83 /* MiniBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3477302C0B1EF800EB7F83 /* MiniBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBankUITests.swift; sourceTree = "<group>"; };
 		0C3477322C0B1EF800EB7F83 /* MiniBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C3477412C0B43B400EB7F83 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				0C34770E2C0B1EF700EB7F83 /* MiniBank */,
+				0C34770F2C0B1EF700EB7F83 /* AppDelegate.swift */,
 				0C3477252C0B1EF800EB7F83 /* MiniBankTests */,
 				0C34772F2C0B1EF800EB7F83 /* MiniBankUITests */,
 				0C34770D2C0B1EF700EB7F83 /* Products */,
@@ -95,11 +98,8 @@
 		0C34770E2C0B1EF700EB7F83 /* MiniBank */ = {
 			isa = PBXGroup;
 			children = (
-				0C34770F2C0B1EF700EB7F83 /* AppDelegate.swift */,
-				0C3477132C0B1EF700EB7F83 /* ViewController.swift */,
-				0C3477182C0B1EF800EB7F83 /* Assets.xcassets */,
-				0C34771A2C0B1EF800EB7F83 /* LaunchScreen.storyboard */,
-				0C34771D2C0B1EF800EB7F83 /* Info.plist */,
+				0C34773F2C0B431100EB7F83 /* Files */,
+				0C3477402C0B436800EB7F83 /* Login */,
 			);
 			path = MiniBank;
 			sourceTree = "<group>";
@@ -119,6 +119,25 @@
 				0C3477322C0B1EF800EB7F83 /* MiniBankUITestsLaunchTests.swift */,
 			);
 			path = MiniBankUITests;
+			sourceTree = "<group>";
+		};
+		0C34773F2C0B431100EB7F83 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3477182C0B1EF800EB7F83 /* Assets.xcassets */,
+				0C34771A2C0B1EF800EB7F83 /* LaunchScreen.storyboard */,
+				0C34771D2C0B1EF800EB7F83 /* Info.plist */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		0C3477402C0B436800EB7F83 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0C3477132C0B1EF700EB7F83 /* LoginViewController.swift */,
+				0C3477412C0B43B400EB7F83 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C3477142C0B1EF700EB7F83 /* ViewController.swift in Sources */,
+				0C3477422C0B43B400EB7F83 /* LoginView.swift in Sources */,
+				0C3477142C0B1EF700EB7F83 /* LoginViewController.swift in Sources */,
 				0C3477102C0B1EF700EB7F83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
